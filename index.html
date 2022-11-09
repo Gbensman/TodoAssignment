@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./todo.css">
+    <title>ToDo</title>
+
+</head>
+<body>
+<div class="wrap">
+    <div id="init" class="header">
+        <header style="color: white; padding-top: 25px; padding-left: 70px;">T O D O</header> 
+        <input type="text" id="myInput" placeholder="Todo title" style="width: 250px; margin-top: 10px; margin-left: 50px; border-radius: 15px; height: 39px;" autocomplete="off" spellcheck="false">
+        <!-- <span onclick="newElement()" class="addBtn">Add</span> -->
+    </div>
+    <ul id="ul1">
+        <li class="checked" style="text-decoration: line-through;">Complete online javascript course</li>
+        <li>Jog around the park 3x</li>
+        <li>10 minutes meditation</li>
+        <li>Read for 1 hour</li>
+        <li>Pick up groceries</li>
+        <li>Complete Todo app on Frontend Mentor</li>
+
+    </ul>
+    <div class="footer">
+        <span>5 items left</span>
+        <button style="border: none; margin-left: 25px;">All</button>
+        <button style="border: none; margin-left: 5px;">Active</button>
+        <button style="border: none; margin-left: 5px;">Completed</button>
+        <button style="border: none; margin-left: 25px;">Clear Completed</button>
+    </div>
+    <footer>
+        <button>Drag and drop to reorder list</button>
+    </footer> 
+</div>  
+</body>
+</html>
